@@ -1,0 +1,108 @@
+{
+  "metrics": {
+    "capture_file": "captures\\first-traffic-analysis.pcapng",
+    "total_packets": 97176,
+    "tcp_packets": 35306,
+    "tls_packets": 14030,
+    "tcp_retransmissions": 587,
+    "tcp_duplicate_acks": 226,
+    "tcp_resets": 131,
+    "tcp_lost_segment_flags": 28,
+    "tcp_out_of_order_flags": 35
+  },
+  "top_retransmission_flows": [
+    {
+      "source": "104.18.39.21:443",
+      "destination": "192.168.3.208:55369",
+      "retransmission_packets": 18
+    },
+    {
+      "source": "108.177.15.95:443",
+      "destination": "192.168.3.208:54821",
+      "retransmission_packets": 13
+    },
+    {
+      "source": "104.18.39.21:443",
+      "destination": "192.168.3.208:55373",
+      "retransmission_packets": 12
+    },
+    {
+      "source": "104.18.39.21:443",
+      "destination": "192.168.3.208:55368",
+      "retransmission_packets": 10
+    },
+    {
+      "source": "104.18.32.47:443",
+      "destination": "192.168.3.208:49341",
+      "retransmission_packets": 10
+    },
+    {
+      "source": "104.18.39.21:443",
+      "destination": "192.168.3.208:54802",
+      "retransmission_packets": 10
+    },
+    {
+      "source": "172.64.155.209:443",
+      "destination": "192.168.3.208:55300",
+      "retransmission_packets": 9
+    },
+    {
+      "source": "157.240.212.60:443",
+      "destination": "192.168.3.208:55398",
+      "retransmission_packets": 9
+    },
+    {
+      "source": "157.240.212.60:5222",
+      "destination": "192.168.3.208:55397",
+      "retransmission_packets": 9
+    },
+    {
+      "source": "157.240.212.60:5222",
+      "destination": "192.168.3.208:49330",
+      "retransmission_packets": 9
+    }
+  ],
+  "top_retransmission_streams": [
+    {
+      "tcp_stream": "115",
+      "retransmission_packets": 20
+    },
+    {
+      "tcp_stream": "119",
+      "retransmission_packets": 16
+    },
+    {
+      "tcp_stream": "47",
+      "retransmission_packets": 14
+    },
+    {
+      "tcp_stream": "286",
+      "retransmission_packets": 14
+    },
+    {
+      "tcp_stream": "357",
+      "retransmission_packets": 14
+    },
+    {
+      "tcp_stream": "306",
+      "retransmission_packets": 13
+    },
+    {
+      "tcp_stream": "356",
+      "retransmission_packets": 13
+    },
+    {
+      "tcp_stream": "114",
+      "retransmission_packets": 12
+    },
+    {
+      "tcp_stream": "161",
+      "retransmission_packets": 11
+    },
+    {
+      "tcp_stream": "287",
+      "retransmission_packets": 11
+    }
+  ],
+  "note": "These are packet counts and diagnostic indicators. They do not prove an attack or identify the root cause."
+}
