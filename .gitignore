@@ -1,0 +1,12 @@
+﻿# Raw packet captures - keep local
+captures/
+*.pcap
+*.pcapng
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Local environment and secrets
+.venv/
+.env
